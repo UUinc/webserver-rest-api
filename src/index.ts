@@ -20,8 +20,8 @@ app.use(bodyParser.json());
 
 const server = http.createServer(app);
 
-server.listen(3000, ()=>{
-    console.log('server running on http://localhost:3000/');
+server.listen(5000, ()=>{
+    console.log('server running on http://localhost:5000/');
 });
 
 const MONGO_URL = 'mongodb+srv://yahya:VH8pVr5UUBX6iYkn@floorplan.cpwtmhv.mongodb.net/?retryWrites=true&w=majority';
